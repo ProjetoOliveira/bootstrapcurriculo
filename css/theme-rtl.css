@@ -15,7 +15,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #2500F9;
+  --bs-blue: #9280fc;
   --bs-indigo: #727cf5;
   --bs-purple: #ad45f6;
   --bs-pink: #f6458e;
@@ -28,7 +28,7 @@
   --bs-white: #fff;
   --bs-gray: #C3C1C8;
   --bs-gray-dark: #616368;
-  --bs-primary: #2500F9;
+  --bs-primary: #9280fc;
   --bs-secondary: #4F5665;
   --bs-success: #40975F;
   --bs-info: #ad45f6;
@@ -2875,8 +2875,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked {
-  background-color: #2500F9;
-  border-color: #2500F9;
+  background-color: #9280fc;
+  border-color: #9280fc;
 }
 
 .form-check-input:checked[type="checkbox"] {
@@ -2888,8 +2888,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input[type="checkbox"]:indeterminate {
-  background-color: #2500F9;
-  border-color: #2500F9;
+  background-color: #9280fc;
+  border-color: #9280fc;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 
@@ -3020,7 +3020,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #2500F9;
+  background-color: #9280fc;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3520,8 +3520,8 @@ fieldset:disabled .btn {
 
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #2500F9;
-  border-color: #2500F9;
+  background-color: #9280fc;
+  border-color: #9280fc;
 }
 
 .btn-secondary {
@@ -3812,14 +3812,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-  color: #2500F9;
-  border-color: #2500F9;
+  color: #9280fc;
+  border-color: #9280fc;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #2500F9;
-  border-color: #2500F9;
+  background-color: #9280fc;
+  border-color: #9280fc;
 }
 
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
@@ -3830,8 +3830,8 @@ fieldset:disabled .btn {
 .btn-check:checked + .btn-outline-primary,
 .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #fff;
-  background-color: #2500F9;
-  border-color: #2500F9;
+  background-color: #9280fc;
+  border-color: #9280fc;
 }
 
 .btn-check:checked + .btn-outline-primary:focus,
@@ -3841,7 +3841,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #2500F9;
+  color: #9280fc;
   background-color: transparent;
 }
 
@@ -4085,7 +4085,7 @@ fieldset:disabled .btn {
 
 .btn-link {
   font-weight: 400;
-  color: #2500F9;
+  color: #9280fc;
   text-decoration: none;
 }
 
@@ -4428,7 +4428,7 @@ fieldset:disabled .btn {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #2500F9;
+  background-color: #9280fc;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -4473,7 +4473,7 @@ fieldset:disabled .btn {
 
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: #2500F9;
+  background-color: #9280fc;
 }
 
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
@@ -4699,7 +4699,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #2500F9;
+  background-color: #9280fc;
 }
 
 .nav-fill > .nav-link,
@@ -5394,7 +5394,7 @@ fieldset:disabled .btn {
 .page-link {
   position: relative;
   display: block;
-  color: #2500F9;
+  color: #9280fc;
   background-color: #fff;
   border: 1px solid #E1E0E4;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -5436,8 +5436,8 @@ fieldset:disabled .btn {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #2500F9;
-  border-color: #2500F9;
+  background-color: #9280fc;
+  border-color: #9280fc;
 }
 
 .page-item.disabled .page-link {
@@ -5659,7 +5659,7 @@ fieldset:disabled .btn {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #2500F9;
+  background-color: #9280fc;
   -webkit-transition: width 0.6s ease;
   -o-transition: width 0.6s ease;
   transition: width 0.6s ease;
@@ -5749,8 +5749,8 @@ fieldset:disabled .btn {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #2500F9;
-  border-color: #2500F9;
+  background-color: #9280fc;
+  border-color: #9280fc;
 }
 
 .list-group-item + .list-group-item {
@@ -6980,7 +6980,7 @@ fieldset:disabled .btn {
   margin-right: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #2500F9;
+  background-color: #9280fc;
   background-clip: padding-box;
   border: 0;
   border-top: 0 solid transparent;
@@ -7253,7 +7253,7 @@ fieldset:disabled .btn {
 }
 
 .link-primary {
-  color: #2500F9;
+  color: #9280fc;
 }
 
 .link-primary:hover, .link-primary:focus {
@@ -7769,7 +7769,7 @@ fieldset:disabled .btn {
 }
 
 .border-primary {
-  border-color: #2500F9 !important;
+  border-color: #9280fc !important;
 }
 
 .border-secondary {
@@ -9409,7 +9409,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-  color: #2500F9 !important;
+  color: #9280fc !important;
 }
 
 .text-secondary {
@@ -9557,7 +9557,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-  background-color: #2500F9 !important;
+  background-color: #9280fc !important;
 }
 
 .bg-secondary {
@@ -17845,7 +17845,7 @@ label {
 |   Custom circle
 -----------------------------------------------*/
 .circle-dashed {
-  border: 1px dashed #2500F9;
+  border: 1px dashed #9280fc;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17968,7 +17968,7 @@ label {
 }
 
 .terms-sidebar .nav-link.active {
-  color: #2500F9;
+  color: #9280fc;
 }
 
 .card-price {
@@ -18198,7 +18198,7 @@ label {
 
 .carousel-indicators .active {
   opacity: 1;
-  background-color: #2500F9;
+  background-color: #9280fc;
   width: 9px;
   height: 9px;
 }
